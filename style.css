@@ -1,0 +1,145 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.bottombox{
+    position: inherit;
+    width: 100%;
+    height: 150px;
+}
+#intro{
+    display: flex;
+    flex: auto;
+    height: 400px;
+    width: 100%;
+}
+h1{
+    display: flex;
+    background-color: darkgray;
+    justify-content: center;
+    padding: 14px;
+    margin: 0;
+}
+#first{
+    display: flex;
+    background-color: #4484CE;
+    align-items: center;
+    padding: 14px;
+    margin-top: 150px;
+}
+#section1.intro-text {
+    display: flex;
+    width: 50%;
+    height: inherit;
+    flex-direction: column;
+    background-color: rgb(148, 148, 146);
+    align-items: center;
+}
+#picture {
+    display: flex;
+    flex: auto;
+    height: inherit;
+    width: 50%;
+    justify-content: flex-end;
+}
+#bepis-man{
+    width: 100%;
+    height: inherit;
+}
+#section1 {
+    height: 300px;
+    margin-bottom: 50px;
+}
+#section2 {
+    /* height: 300px; */
+    margin-bottom: 50px;
+}
+.tab {
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border: solid rgb(0, 0, 0);
+    background-color: #D9D9D9;
+}
+.tab a {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+/* Change background color of buttons on hover */
+.tab a:hover {
+    background-color: rgb(107, 103, 103);
+}
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+    color: rgb(107, 103, 103);
+}
+footer{
+    margin-top: 50px;
+    background-color: rgb(232, 231, 250);
+    color: #2D3142;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 17px;
+}
+#email{
+    margin-top: 50px;
+}
+#copyright-text{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+#high-school{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+}
+#varsity-education{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#section2 div{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
